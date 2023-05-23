@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h3>Get Your Percentage</h3>
+    <div class="form">
+    <form action="">
+        <label>Tamil</label>
+        <input type="number" name="tamil" id="bookOne"  placeholder="Marks"><br><br>
+        <label>English</label>
+        <input type="number" name="English" id="bookTwo" placeholder="Marks"><br><br>
+        <label>Maths</label>
+        <input type="number" name="Maths" id="bookThree" placeholder="Marks"><br><br>
+        <label>Science</label>
+        <input type="number" name="Science" id="bookFour" placeholder="Marks"><br><br>
+        <label>Social Science</label>
+        <input type="number" name="Social" id="bookFive" placeholder="Marks"><br><br>
+    </form>
+    </div>
+    <div class="submit">
+        <input type="submit" name="" id="" value="Calculate" onclick="calculate()">
+</div><br>
+    <div class="table">
+        <table border="2" >
+        <tr><td>Total Marks</td> 
+        <td>500</td></tr>
+        <tr><td>Obtained Marks</td> 
+        <td id="Obtain"></td></tr>
+        <tr><td>Percentage</td>
+        <td id="perc"></td></tr>
+        <tr><td>Grade</td> 
+        <td id="grade"></td></tr>
+        <tr><td>Result </td>
+        <td id="result"></td></tr>
+    </table>
+    </div>
+</div>
+    
+</body>
+</html>
